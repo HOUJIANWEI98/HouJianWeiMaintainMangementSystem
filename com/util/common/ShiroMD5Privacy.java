@@ -18,7 +18,7 @@ public class ShiroMD5Privacy {
 	}
 
 	public static void main(String[] args) {
-		String a = privacy("ahualy","a123456");
+		String a = privacy("admin","a123456");
 		System.out.println(a);
 	}
 

@@ -4,7 +4,7 @@
 <html lang="zh">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<title>创新创业型小微企业人力资源管理平台</title>
+<title>运维管理系统</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <meta content="" name="description" />
 <meta content="" name="author" />
@@ -44,9 +44,9 @@ body{
 </style>
 </head>
 <body oncontextmenu="self.event.returnValue=false" onselectstart="return false">
-<div style="width: 1360px;height:48px; background-color:RGB(43,48,59) ">
+<div style="width: 100%;height:48px; background-color:RGB(43,48,59) ">
       <ul style="margin-left: 40px;padding-top:6px">
-        <li style="display: inline-block;"><h1><a href="loginForm.html" style="color:white;font-size:20px;">创新创业型小微企业人力资源管理平台</a></h1></li>
+        <li style="display: inline-block;"><h1><a href="loginForm.html" style="color:white;font-size:20px;">运维管理系统</a></h1></li>
         <li style="display: inline-block; margin-left: 120px;"><p style="font-size:14px;color: rgb(130,130,130)">重置密码</p></li>
         <li style="display: inline-block; margin-left: 60px;"><a href="loginForm.html" style="font-size:14px;color:rgb(130,130,130); ">首页</a></li>
         <li style="display: inline-block; margin-left: 60px;"><a href="#" onclick="location.href='./recruitment';"style="font-size:14px;color:rgb(130,130,130); ">招聘页面</a></li>
@@ -54,8 +54,8 @@ body{
         <li style="display: inline-block; margin-left: 64px;"><p  style="font-size:14px;color:rgb(130,130,130);">客服电话：4008864211</p></li>
       </ul>    
     </div> 
-    <div id="main" style="width:1360px;height:610px;float:left;">
-         <div class="container" style="background-color:rgb(73,74,95);width: 1360px;height:610px;float:left;">
+    <div id="main" style="width:100%;height:610px;float:left;">
+         <div class="container" style="background-color:rgb(73,74,95);width: 100%;height:610px;float:left;">
          <div class="testSlider" style="margin-left:-15px;"></div>
          <!-- <div style="width:1360px;height:610px;"><img src="js/metronic/img/bg/11.jpg" alt="" height="610px;"width="1360px;"/></div> -->
 		<div class="register" style="height:360px;margin-top:150px;margin-left:205px; opacity:0.9;" >
@@ -103,7 +103,7 @@ body{
         
         <!-- 底部开始 -->
      <div style="width: 1360px;height:48px; background-color:RGB(43,48,59) ;margin-top:610px;">
-        <div align="center" style="padding-top:15px;color:RGB(153,153,153);">Copyright ©2020 关注公众号【零幺码】和我一起进步！</div>
+        <div align="center" style="padding-top:15px;color:RGB(153,153,153);">Copyright ©2020 运维管理系统</div>
     </div>
     <!-- 底部结束 -->
 </body>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<title>创新创业型小微企业人力资源管理平台</title>
+<title>招聘信息查看板块</title>
 <meta content="" name="description" />
 <meta content="" name="author" />
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
@@ -33,9 +33,9 @@
 	<script src="${ctx}/campus/js/home.js"></script>
 </head>
 <body style="background-color:rgb(73,74,95);">
-<div style="width: 1360px;height:48px; background-color:RGB(43,48,59) ">
+<div style="width: 100%;height:48px; background-color:RGB(43,48,59) ">
       <ul style="margin-left: 40px;padding-top:6px; ">
-        <li style="display: inline-block;"><h1><a href="loginForm.html" style="color:white;font-size:20px;text-decoration:none;">创新创业型小微企业人力资源管理平台</a></h1></li>
+        <li style="display: inline-block;"><h1><a href="loginForm.html" style="color:white;font-size:20px;text-decoration:none;">招聘信息查看</a></h1></li>
         <li style="display: inline-block; margin-left: 120px;"><a  style="font-size:14px;color:rgb(130,130,130); text-decoration:none;" >用户登陆</a></li>
         <li style="display: inline-block; margin-left: 60px;"><a href="loginForm.html" style="font-size:14px;color:rgb(130,130,130); text-decoration:none; ">首页</a></li>
         <li style="display: inline-block; margin-left: 60px;"><a href="#" onclick="location.href='./recruitment';"style="font-size:14px;color:rgb(130,130,130); text-decoration:none;">招聘页面</a></li>
@@ -43,10 +43,10 @@
         <li style="display: inline-block; margin-left: 64px;"><p  style="font-size:14px;color:rgb(130,130,130);">客服电话：4008864211</p></li>
       </ul>    
     </div> 
-    <div style="height: 80px;background-color:rgb(73,74,95);width:1360px;"></div>
-    <div id="J-index-wrap" class="index-wrap animation" style="background-color:rgb(73,74,95);width:1360px;">
-	<div class="wrap" style="background-color:rgb(73,74,95);width:1360px; padding-left: 200px">
-		<div class="main-burn-content" style="background-color:rgb(73,74,95);width:1360px;">
+    <div style="height: 80px;background-color:rgb(73,74,95);width:100%;"></div>
+    <div id="J-index-wrap" class="index-wrap animation" style="background-color:rgb(73,74,95);width:100%;">
+	<div class="wrap" style="background-color:rgb(73,74,95);width:100%; padding-left: 200px">
+		<div class="main-burn-content" style="background-color:rgb(73,74,95);width:100%;">
 		
 			
      <div class="x-body" style="margin-top: -30px;"> 
@@ -97,11 +97,11 @@
 			</div>
 		</div>
 	</div>
-	<div style="height:100px;width:1360px;background-color:rgb(73,74,95);"></div>
+	<div style="height:100px;width:100%;background-color:rgb(73,74,95);"></div>
 	
 	  <!-- 底部开始 -->
-     <div style="width: 1360px;height:48px; background-color:RGB(43,48,59);">
-        <div align="center" style="padding-top:15px;color:RGB(153,153,153);">Copyright ©2020 关注公众号【零幺码】和我一起进步！</div>
+     <div style="width: 100%;height:48px; background-color:RGB(43,48,59);">
+        <div align="center" style="padding-top:15px;color:RGB(153,153,153);">Copyright ©2020 运维管理系统-招聘</div>
     </div>
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="${ctx}/public/lib/layui/layui.js" charset="utf-8"></script>

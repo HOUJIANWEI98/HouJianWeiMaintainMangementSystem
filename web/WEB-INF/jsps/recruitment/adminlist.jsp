@@ -72,7 +72,7 @@
 			  <th>在招人数</th>
 			  <th>招聘状态</th>
 			  <th>截止日期</th>
-         <th id="do">操作</th>
+              <th id="do">操作</th>
         </thead>
         <tbody>
         <c:forEach items="${requestScope.recruitment_list}" var="recruitment" varStatus="stat">

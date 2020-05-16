@@ -117,7 +117,7 @@ public class RegistController {
 		    //那这个id该如何去生成，怎么就能唯一呢
 		    //可以去随机生成一4位数的数字，生成之后，这个数字必须保证唯一，所以，先生成数字，再去user_inf表中去查找看存不存在
 		    //如果不存在，就可以将这个数字设置为id，否则，继续去生成，完成之后，就可以进行插入操作了
-		       //这里随机生成的数字不能确保唯一性，所以，定义一个全局的id，这个id初始化的值每次需要从数据库获取到，确保唯一
+			//这里随机生成的数字不能确保唯一性，所以，定义一个全局的id，这个id初始化的值每次需要从数据库获取到，确保唯一
 		      CreateStaticId createStaticId = new CreateStaticId(ahualyservice.getStaticId().getStaticId());
 		      Integer staticId=createStaticId.getStaticId();
 			    	user.setEmp_id(staticId);
@@ -128,7 +128,7 @@ public class RegistController {
 			  //插入成功之后，这里执行更新工作，就是将这个值更新掉
 			   ahualyservice.updata_staticId(staticId);	
 			   //在注册成功之后，我需要通过获取邮箱信息给用户发送邮件，告诉用户管理员会在2小时之内进行身份审核
-			   //审核完之后，会发送邮件给用户，用户就可以登录系统了
+			   //审核完之后，会发送邮件给用户，用户就可以登录系统了-我的邮箱出了点小问题 暂时把功能停了
 //			   sendMail.sendEmail(javaMailSender,user);
 			   mv.setViewName("/loginForm");
 			   return mv;

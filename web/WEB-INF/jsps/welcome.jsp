@@ -65,7 +65,7 @@
                     <tbody>
                         <tr>
                             <td >
-                                <a class="x-a" href="./index?token=${sessionScope.token}&lang=zh_CN" target="_blank">创新创业型小微企业人力资源管理平台上线了!!!</a>
+                                <a class="x-a" href="./index?token=${sessionScope.token}&lang=zh_CN" target="_blank">暂时没有通知！</a>
                             </td>
                         </tr>
                         
@@ -81,7 +81,7 @@
                         
                         <tr>
                             <th>系统版本</th>
-                            <td>2020-04.4.1</td></tr>
+                            <td>1.2.0</td></tr>
                         <tr>
                             <th>服务器地址</th>
                             <td>本机服务</td></tr>
@@ -102,30 +102,12 @@
                         <tr>
                             <th>执行时间限制</th>
                             <td>30s</td></tr>
-                        <tr>
-                            <th>剩余空间</th>
-                            <td>86015.2M</td></tr>
                     </tbody>
                 </table>
             </div>
         </fieldset>
-        <fieldset class="layui-elem-field">
-            <legend>开发团队</legend>
-            <div class="layui-field-box">
-                <table class="layui-table">
-                    <tbody>
-                        <tr>
-                            <th>版权所有</th>
-                            <td>公众号【零幺码】</td>
-                        </tr>
-                        <tr>
-                            <th>开发者</th>
-                            <td>籁小知</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </fieldset>
-        <blockquote class="layui-elem-quote layui-quote-nm">关注公众号【零幺码】和我一起进步！</blockquote>
+
+        <blockquote class="layui-elem-quote layui-quote-nm">到头了 俺可是有底线的嗷！</blockquote>
     </div>
         <script>
         var _hmt = _hmt || [];

@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>创新创业型小微企业人力资源管理平台</title>
+	<title>运维管理系统</title>
 	<meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
@@ -120,7 +120,7 @@
 <body oncontextmenu="self.event.returnValue=false" onselectstart="return false">
     <!-- 顶部开始 -->
     <div class="container">
-        <div class="logo" ><a href="./index?token=${sessionScope.token}&lang=zh_CN"  style="width:310px;" >创新创业型小微企业人力资源管理平台</a></div>
+        <div class="logo" ><a href="./index?token=${sessionScope.token}&lang=zh_CN"  style="width:310px;" >运维管理系统</a></div>
         
         <div class="left_open">
             <i title="展开左侧栏" class="iconfont">&#xe699;</i>
@@ -417,7 +417,7 @@
                     </li >
                 </ul>
 <!--************************************************************************************* -->
-<!--新增用户请假功能  填写请假信息，做提交给数据库，为请假详情列表，-->
+<!-- 填写请假信息，做提交给数据库，为请假详情列表，-->
                  <ul class="sub-menu">
                     <li>
                         <a _href="${ctx }/checkwork/leaveadd">
@@ -643,7 +643,7 @@
     <!-- 中部结束 -->
     <!-- 底部开始 -->
     <div class="footer" style="background-color:RGB(43,48,59)">
-        <div class="copyright" align="center"style="background-color:RGB(43,48,59)">Copyright ©2020 关注公众号【零幺码】和我一起进步！</div>
+        <div class="copyright" align="center"style="background-color:RGB(43,48,59)">Copyright ©2020 运维管理系统</div>
     </div>
     <!-- 底部结束 -->
  

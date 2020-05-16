@@ -271,7 +271,7 @@ public interface AhualyService {
 
 
 	// 按日期 用户id去查询
-	PunchClock getPunchClockByDateAndUserId(String date,Integer userID);
+	PunchClock getPunchClockByDateAndUserId(String date, Integer userID);
 
 	void insert_PunchClock(PunchClock punchClock);
 

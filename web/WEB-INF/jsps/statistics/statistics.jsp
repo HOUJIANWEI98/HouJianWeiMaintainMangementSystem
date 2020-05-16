@@ -159,69 +159,10 @@ var myChart = echarts.init(document.getElementById('mainChart1'));
    		 <div id="mainChart1" style="border: 2px solid rosybrown; width:100%; height:100%;"></div> 
 	</div>
 	
-	<div id="app1" style="width: 480px;height: 400px; border:2px solid rosybrown;margin-top:50px;margin-left:50px;">
-     
-     <ve-line :data="chartData" :settings="chartSettings"></ve-line>
-   </div>
-	<script>
-	//使用ajax加载数据 
-	$.ajax({
-	    method:'post',
-	    url:'${ctx}/echartsData2',
-	    dataType:'json',
-	    success:function(data){
-	    	
-	        initChat2(data);
-	    }
-	}); 
-	function initChat2(data){
-		var yA = [];
-		var yB = [];
-		var yC = [];
-		var yD = [];
-		var yE = [];
-		
-	    //将获取到的json数据列表清洗数据后push到xA,yA两个坐标轴 数据列表中
-	    //注意，此处循环函数可以用于位置数量的数据，不必提前预知数据量大小
-		 for(var i=0;i<data.length;i++){
-	    	yA.push(data[i].searchengine);
-	    	yB.push(data[i].allianceadvertising);
-	    	yC.push(data[i].mailmarketing);
-	    	yD.push(data[i].directaccess);
-	    	yE.push(data[i].videoadvertising);
-	     };
-	    	new Vue({
-	    		  el: '#app1',
-	    		  data () {
-	    		    this.chartSettings = {
-	    		      title : '一周处理业务折线统计',  
-	    		      metrics: ['邮件营销', '联盟广告', '视频广告','直接访问','搜索引擎'],
-	    		      dimension: ['日期']
-	    		    }
-	    		    return {
-	    		      chartData: {
-	    		        columns: ['日期', '邮件营销', '联盟广告', '视频广告','直接访问','搜索引擎'],
-	    		       
-	    		        rows: [
-	    		          { '日期': '星期一', '邮件营销': yA[0], '联盟广告': yB[0], '视频广告': yC[0],'直接访问':yD[0],'搜索引擎':yE[0]},
-	    		          { '日期': '星期二', '邮件营销': yA[1], '联盟广告': yB[1], '视频广告': yC[1],'直接访问':yD[1],'搜索引擎':yE[1]},
-	    		          { '日期': '星期三', '邮件营销': yA[2], '联盟广告': yB[2], '视频广告': yC[2],'直接访问':yD[2],'搜索引擎':yE[2]},
-	    		          { '日期': '星期四', '邮件营销': yA[3], '联盟广告': yB[3], '视频广告': yC[3],'直接访问':yD[3],'搜索引擎':yE[3]},
-	    		          { '日期': '星期五', '邮件营销': yA[4], '联盟广告': yB[4], '视频广告': yC[4],'直接访问':yD[4],'搜索引擎':yE[4]},
-	    		          { '日期': '星期六', '邮件营销': yA[5], '联盟广告': yB[5], '视频广告': yC[5],'直接访问':yD[5],'搜索引擎':yE[5]},
-	    		          { '日期': '星期日', '邮件营销': yA[6], '联盟广告': yB[6], '视频广告': yC[6],'直接访问':yD[6],'搜索引擎':yE[6]}
-	    		        ]
-	    		      }
-	    		    }
-	    		  }
-	    		})
-	    
-	};
- 
-	</script>
-	
-	<div id="app" style="width: 500px;height: 400px; border:2px solid rosybrown;margin-top:-404px;margin-left:560px;margin-bottom: 15px;">
-      
+
+
+	<div id="app" style="width: 500px;height: 400px;  border:2px solid rosybrown;margin-top:50px;margin-left:50px;">
+
     <ve-map :data="chartData"></ve-map>
    </div>
 <script>

@@ -28,7 +28,7 @@ public interface PunchClockDao {
     List<PunchClock> findAllPunchById(Integer id);
 
     @Update("update "+PUNCHCLOCKTABLE+" set offwork_status=#{status},offwork = #{date1},offwork_status_id = #{offwork_status_id} where userId = #{id} and date = #{date}")
-    void update_PunchClocks(@Param("id") Integer id, @Param("date") String date, @Param("date1") Date date1,  @Param("status") int status,  @Param("offwork_status_id") int offwork_status_id);
+    void update_PunchClocks(@Param("id") Integer id, @Param("date") String date, @Param("date1") Date date1, @Param("status") int status, @Param("offwork_status_id") int offwork_status_id);
 
     @Select("select * from "+PUNCHCLOCKTABLE+" where id = #{id}")
     PunchClock getPunchClockById(Integer id);

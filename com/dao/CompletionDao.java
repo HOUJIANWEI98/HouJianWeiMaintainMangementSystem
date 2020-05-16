@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Select;
 
 import ahualy.neepu.pojo.Completion;
 
-public interface CompletionDao {
+public interface   CompletionDao {
 	
 	//查询
 			@Select("select * from "+COMPLETIONTABLE+" ")

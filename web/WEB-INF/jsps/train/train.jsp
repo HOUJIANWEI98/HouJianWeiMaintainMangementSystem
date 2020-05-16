@@ -60,7 +60,7 @@
     <div class="x-body layui-anim layui-anim-up" style="font-family'宋体'">
        
         <h1 style="font-size: 36px;color: rgb(26,160,147);margin-left: 450px;">培训计划</h1>
-	     <p style="margin-left:80px">2019-2-14   &nbsp;&nbsp;&nbsp;&nbsp;来源：创新创业型小微企业   </p>    
+	     <p style="margin-left:80px">2020-4-24   &nbsp;&nbsp;&nbsp;&nbsp;来源：培训部   </p>
          <div style="margin-left:800px;margin-top:-15px;">【字体：<a href="javascript:fontZoomC();">大</a> <a href="javascript:fontZoomB();">中</a> <a  href="javascript:fontZoomA();">小</a>】 </div>
 	     <hr>
 	    

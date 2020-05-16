@@ -9,12 +9,12 @@
 <html lang="zh">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<title>创新创业型小微企业人力资源管理平台</title>
-<meta content="" name="description" />
-<meta content="" name="author" />
-<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<title>运维管理系统</title>
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
 <link rel="shortcut icon" href="${ctx}/public/logo.ico" type="image/x-icon" />
@@ -65,22 +65,21 @@ body{
 
 
 </head>
-<!-- oncontextmenu="self.event.returnValue=false"  屏蔽右键
- onselectstart="return false"   防止选择复制--> 
+<!-- oncontextmenu="self.event.returnValue=false"  屏蔽右键  防止选择复制-->
 <body oncontextmenu="self.event.returnValue=false" onselectstart="return false" >
-<div style="width: 1360px;height:48px; background-color:RGB(43,48,59) ">
+<div style="width: 100%;height:48px; background-color:RGB(43,48,59) ">
       <ul style="margin-left: 40px;padding-top:6px">
-        <li style="display: inline-block;"><h1><a href="loginForm.html" style="color:white;font-size:20px;">创新创业型小微企业人力资源管理平台</a></h1></li>
+        <li style="display: inline-block;"><h1><a href="loginForm.html" style="color:white;font-size:20px;">运维管理系统</a></h1></li>
         <li style="display: inline-block; margin-left: 120px;"><a  style="font-size:14px;color:rgb(130,130,130); " >用户登陆</a></li>
         <li style="display: inline-block; margin-left: 60px;"><a href="loginForm.html" style="font-size:14px;color:rgb(130,130,130); ">首页</a></li>
-        <li style="display: inline-block; margin-left: 60px;"><a href="#" onclick="location.href='./recruitment';"style="font-size:14px;color:rgb(130,130,130); ">招聘页面</a></li>
+        <li style="display: inline-block; margin-left: 60px;"><a href="#" onclick="location.href='./recruitment';"style="font-size:14px;color:rgb(130,130,130); ">招聘信息</a></li>
         <li style="display: inline-block; margin-left: 80px;"><a href="javascript:alert('本系统只提供管理员和公司管理人员登录系统！！！如若注册此系统，请联系部门负责人下发注册码 ！！！');"	  style="font-size:14px;color:rgb(130,130,130); ">帮助与文档</a></li>
-        <li style="display: inline-block; margin-left: 64px;"><p  style="font-size:14px;color:rgb(130,130,130);">客服电话：4008864211</p></li>
+        <li style="display: inline-block; margin-left: 64px;"><p  style="font-size:14px;color:rgb(130,130,130);">客服电话：15653248960</p></li>
       </ul>    
     </div> 
-    <div id="main" style="width:1360px;height:610px;float:left;">
+    <div id="main" style="width:100%;height:610px;float:left;">
           
-      <div class="container" style="background-color:rgb(73,74,95);width: 1360px;height:610px;float:left;"> 
+      <div class="container" style="background-color:rgb(73,74,95);width: 100%;height:100%;float:left;">
         <!-- <div  style="background-color:green;width: 1360px;height:610px; float:left;"> -->
        <!-- 幻灯片 -->
        
@@ -134,8 +133,8 @@ body{
        </div>
       </div>
        <!-- 底部开始 -->
-     <div style="width: 1360px;height:48px; background-color:RGB(43,48,59) ;margin-top:610px;">
-        <div align="center" style="padding-top:15px;color:RGB(153,153,153);">Copyright ©2020 关注公众号【零幺码】和我一起进步！</div>
+     <div style="width: 100%;height:48px; background-color:RGB(43,48,59) ;margin-top:610px;">
+        <div align="center" style="padding-top:15px;color:RGB(153,153,153);">Copyright ©2020 运维管理系统</div>
     </div>
    		 <!-- 底部结束 -->
     
