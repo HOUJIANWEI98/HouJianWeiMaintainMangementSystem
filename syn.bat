@@ -1,5 +1,5 @@
 git pull
 git add -A
-git commit -m"所有功能实现！"
+git commit -m"finish project！"
 git push
 pause
