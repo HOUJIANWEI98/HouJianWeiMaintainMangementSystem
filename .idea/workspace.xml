@@ -6,14 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2243035e-db53-41b7-8f43-90b63d7e6851" name="Default Changelist" comment="" />
+    <list default="true" id="2243035e-db53-41b7-8f43-90b63d7e6851" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HouJianWeiMaintainMangementSystem" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -31,10 +34,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/upload" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -162,11 +166,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -200,6 +199,7 @@
       <workItem from="1589683797573" duration="1205000" />
       <workItem from="1589766081362" duration="3935000" />
       <workItem from="1589855100077" duration="4589000" />
+      <workItem from="1590730687238" duration="547000" />
     </task>
     <servers />
   </component>
@@ -220,9 +220,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/-1920.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1588857252468" />
-    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589621427017">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="-1729" y="3" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590731232100">
+      <screen x="-1920" y="0" width="1280" height="693" />
     </state>
+    <state x="-1729" y="3" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.693/0.0.1600.860@-1920.0.1280.693" timestamp="1590731232100" />
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1589621427017" />
     <state x="474" y="170" key="FileChooserDialogImpl" timestamp="1588857197562">
       <screen x="0" y="0" width="1600" height="860" />
@@ -276,9 +277,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1069" height="222" key="GridCell.Tab.2.right/-1920.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1589859614682" />
-    <state x="280" y="4" key="SettingsEditor" timestamp="1589621689337">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="-1696" y="0" key="SettingsEditor" timestamp="1590730956636">
+      <screen x="-1920" y="0" width="1280" height="693" />
     </state>
+    <state x="-1696" y="0" key="SettingsEditor/-1920.0.1280.693/0.0.1600.860@-1920.0.1280.693" timestamp="1590730956635" />
     <state x="280" y="4" key="SettingsEditor/-1920.0.1280.693/0.0.1600.860@0.0.1600.860" timestamp="1589621689337" />
     <state x="535" y="31" width="647" height="801" key="find.popup" timestamp="1589269028350">
       <screen x="0" y="0" width="1600" height="860" />
